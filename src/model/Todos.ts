@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document } from "mongoose";
 
-interface ITodo extends Document {
+export interface ITodo extends Document {
   user: any;
   title: string;
   completed: boolean;

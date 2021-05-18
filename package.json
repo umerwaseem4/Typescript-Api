@@ -7,7 +7,6 @@
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
     "client": "npm start --prefix todo",
-    "startup": "concurrently \"npm run dev\" \"npm run client\"",
     "build": "tsc -p ."
   },
   "keywords": [],
